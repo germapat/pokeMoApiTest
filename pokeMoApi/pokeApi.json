@@ -1,0 +1,5 @@
+{
+  "evolution": "https://pokeapi.co/api/v2/evolution-chain/",
+  "pokemon": "https://pokeapi.co/api/v2/pokemon/",
+  "stat": "https://pokeapi.co/api/v2/stat/"
+}
