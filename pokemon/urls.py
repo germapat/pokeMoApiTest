@@ -9,11 +9,8 @@ from rest_framework.routers import DefaultRouter
 
 
 router = DefaultRouter()
-# router = routers.SimpleRouter(trailing_slash=True)
-router.register(r'users', UserViewSet)
-router.register(r'groups', GroupViewSet)
-#router.register(r'pokemons', Pokemon)
+router = routers.SimpleRouter(trailing_slash=True)
 urlpatterns = [
 path('evolutions/<pk>/', Evolution.get_service),
-path('pokemons/<pk>/', Pokemon.get_service),
+path('pokemons/<name>/', Pokemon.get_pokemon),
 ] + router.urls

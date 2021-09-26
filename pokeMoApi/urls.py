@@ -6,6 +6,6 @@ router = routers.DefaultRouter()
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', include('pokemon.urls')),
     path('api/', include('pokemon.urls')),
 ]
