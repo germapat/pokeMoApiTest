@@ -9,4 +9,6 @@ Test MO Tecnologias
 6. test api evolution: http://localhost:{portApp}/api/evolutions/{id}/ Example: http://localhost:8000/api/evolutions/10/
 7. test pokemon api: http://localhost:{portApp}/api/evolutions/{name}/ Example: http://localhost:8000/api/evolutions/pichu/
 
+The Test use https://pypi.org/project/fwbasemodel/ or https://github.com/germapat/fw let's do it !!
+
 The Test is based on https://pokeapi.co/docs/v2#evolution-chains
