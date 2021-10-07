@@ -1,6 +1,10 @@
 # pokeMoApiTest
 Test MO Tecnologias
 
+Prerequisites enviroment:
+* Install pip && virtalenv
+* Create enviroment virtalenv python3.9
+
 1. clone repository: git clone https://github.com/germapat/pokeMoApiTest
 2. cd pokeMoApiTest
 3. install requirements: pip install -r requirements.txt
