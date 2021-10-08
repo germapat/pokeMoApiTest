@@ -11,7 +11,7 @@ Prerequisites enviroment:
 4. run command: python manage.py migrate
 5. run command: python manage.py runserver
 6. test api evolution: http://localhost:{portApp}/api/evolutions/{id}/ Example: http://localhost:8000/api/evolutions/10/
-7. test pokemon api: http://localhost:{portApp}/api/evolutions/{name}/ Example: http://localhost:8000/api/evolutions/pichu/
+7. test pokemon api: http://localhost:{portApp}/api/evolutions/{name}/ Example: http://localhost:8000/api/pokemons/pichu/
 
 The Test use https://pypi.org/project/fwbasemodel/ or https://github.com/germapat/fw let's do it !!
 
