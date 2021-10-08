@@ -7,7 +7,7 @@ Prerequisites enviroment:
 
 1. clone repository: git clone https://github.com/germapat/pokeMoApiTest
 2. cd pokeMoApiTest
-3. install requirements: pip install -r requirements.txt
+3. install requirements run command: pip install -r requirements.txt
 4. run command: python manage.py migrate
 5. run command: python manage.py runserver
 6. test api evolution: http://localhost:{portApp}/api/evolutions/{id}/ Example: http://localhost:8000/api/evolutions/10/
